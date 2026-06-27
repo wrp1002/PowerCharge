@@ -3,7 +3,7 @@
 #import <AudioToolbox/AudioToolbox.h>
 
 #import <rootless.h>
-#import "../common.h"
+#import "common.h"
 
 
 @implementation PCPRootListController

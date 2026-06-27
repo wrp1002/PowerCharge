@@ -20,7 +20,7 @@ include $(THEOS)/makefiles/common.mk
 SDKVERSION = 16.5
 TWEAK_NAME = PowerCharge
 
-$(TWEAK_NAME)_FILES = Tweak.x Debug.x
+$(TWEAK_NAME)_FILES = src/Tweak.x src/Debug.x
 $(TWEAK_NAME)_CFLAGS = -fobjc-arc
 $(TWEAK_NAME)_FRAMEWORKS = UIKit AudioToolbox
 

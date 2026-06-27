@@ -1,6 +1,7 @@
 #!/bin/bash
 THEOS=${THEOS:-$HOME/theos}
 SDK=$THEOS/sdks/iPhoneOS15.5.sdk
+PROJECT_DIR=$(pwd)
 
 cat > .clangd << EOF
 CompileFlags:
@@ -13,6 +14,7 @@ CompileFlags:
     - -I$THEOS/include
     - -I$THEOS/vendor/include
     - -I$SDK/usr/include
+    - -I$PROJECT_DIR
     - -target
     - arm64-apple-ios16.0
 EOF
