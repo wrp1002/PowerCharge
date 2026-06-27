@@ -15,7 +15,7 @@
 		<key>isController</key>
 		<true/>
 		<key>label</key>
-		<string>PowerChargePrefs</string>
+		<string>PowerCharge</string>
 	</dict>
 </dict>
 </plist>

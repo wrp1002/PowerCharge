@@ -1,6 +1,6 @@
 Package: com.wrp1002.powercharge
 Name: Power
-Version: 0.0.1
+Version: 0.0.3
 Architecture: iphoneos-arm
 Description: An awesome MobileSubstrate tweak!
 Maintainer: Wes <wes.hamster@gmail.com>
