@@ -1,0 +1,20 @@
+#!/bin/bash
+THEOS=${THEOS:-$HOME/theos}
+SDK=$THEOS/sdks/iPhoneOS15.5.sdk
+
+cat > .clangd << EOF
+CompileFlags:
+  Add:
+    - -x
+    - objective-c
+    - -fobjc-arc
+    - -isysroot
+    - $SDK
+    - -I$THEOS/include
+    - -I$THEOS/vendor/include
+    - -I$SDK/usr/include
+    - -target
+    - arm64-apple-ios16.0
+EOF
+
+echo "Generated .clangd using THEOS=$THEOS"

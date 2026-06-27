@@ -26,4 +26,5 @@ $(TWEAK_NAME)_FRAMEWORKS = UIKit AudioToolbox
 
 
 include $(THEOS_MAKE_PATH)/tweak.mk
+SUBPROJECTS += powerchargeprefs
 include $(THEOS_MAKE_PATH)/aggregate.mk
