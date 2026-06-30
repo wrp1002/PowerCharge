@@ -1,8 +1,8 @@
 Package: com.wrp1002.powercharge
-Name: Power
-Version: 0.0.3
+Name: OldSpark
+Version: 0.0.4
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: POWERful charging sound effects
 Maintainer: Wes <wes.hamster@gmail.com>
 Author: Wes <wes.hamster@gmail.com>
 Section: Tweaks
