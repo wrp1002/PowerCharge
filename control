@@ -1,6 +1,6 @@
 Package: com.wrp1002.powercharge
 Name: OldSpark
-Version: 0.0.6
+Version: 0.0.7
 Architecture: iphoneos-arm
 Description: POWERful charging sound effects
 Maintainer: Wes <wes.hamster@gmail.com>

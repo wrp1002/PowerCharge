@@ -1,4 +1,4 @@
-THEOS_PACKAGE_SCHEME=rootless
+#THEOS_PACKAGE_SCHEME=rootless
 
 ifeq ($(THEOS_PACKAGE_SCHEME),rootless)
 	ARCHS = arm64 arm64e
